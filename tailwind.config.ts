@@ -17,6 +17,16 @@ const config: Config = {
     },
     extend: {
       colors: {
+        portfolio: {
+          bg: "#050505",
+          panel: "#080808",
+          card: "#0d0d0d",
+          line: "#242424",
+          text: "#f4f4f0",
+          muted: "#aaaaa2",
+          dim: "#777771",
+          accent: "#b6ff3b",
+        },
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',

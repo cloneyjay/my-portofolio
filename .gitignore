@@ -39,3 +39,22 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# ruflo / claude-flow runtime state
+.claude/
+.claude-flow/
+.mcp.json
+CLAUDE.md
+ruvector.db
+agentdb.rvf
+agentdb.rvf.lock
+
+# local resume assets
+resume.pdf
+public/resume.pdf
+resume/
+
+# superpowers brainstorming artifacts and local specs
+.superpowers/
+docs/superpowers/specs/
+docs/superpowers/plans/

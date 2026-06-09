@@ -1,21 +1,16 @@
-import HeroSection from "@/components/hero-section";
-import AboutSection from "@/components/about-section";
-import TechStackSection from "@/components/tech-stack-section";
-import ProjectsSection from "@/components/projects-section";
-import ContactForm from "@/components/contact-form";
-import Footer from "@/components/footer";
+import PortfolioShell from "@/components/portfolio-shell";
+import ProfileIntro from "@/components/profile-intro";
+import ResumeDetails from "@/components/resume-details";
+import SelectedWork from "@/components/selected-work";
+import SkillsSection from "@/components/skills-section";
 
 export default function Home() {
   return (
-    <div className="min-h-screen">
-      <main>
-        <HeroSection />
-        <AboutSection />
-        <TechStackSection />
-        <ProjectsSection />
-        <ContactForm />
-      </main>
-      <Footer />
-    </div>
+    <PortfolioShell>
+      <ProfileIntro />
+      <SelectedWork />
+      <SkillsSection />
+      <ResumeDetails />
+    </PortfolioShell>
   );
 }

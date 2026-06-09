@@ -4,6 +4,7 @@
 
 @layer base {
   :root {
+    color-scheme: dark;
     --background: 0 0% 100%;
     --foreground: 222 47% 11%;
     --card: 0 0% 100%;
@@ -59,7 +60,18 @@
   * {
     @apply border-border;
   }
+
+  html {
+    scroll-behavior: smooth;
+    background: #050505;
+  }
+
   body {
-    @apply bg-background text-foreground;
+    @apply bg-portfolio-bg text-portfolio-text;
+  }
+
+  ::selection {
+    background: #b6ff3b;
+    color: #050505;
   }
 }
