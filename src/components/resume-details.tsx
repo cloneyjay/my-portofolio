@@ -20,7 +20,13 @@ export default function ResumeDetails() {
                 </h2>
                 <p className="mt-1 text-sm text-portfolio-dim">
                   {entry.organization}
+                  {entry.organizationType ? ` · ${entry.organizationType}` : ""}
                 </p>
+                {entry.period || entry.location ? (
+                  <p className="mt-1 text-sm text-portfolio-dim">
+                    {[entry.period, entry.location].filter(Boolean).join(" · ")}
+                  </p>
+                ) : null}
                 <ul className="mt-4 grid gap-2 text-sm leading-7 text-portfolio-muted">
                   {entry.details.map((detail, index) => (
                     <li key={`${entry.title}-${index}`}>{detail}</li>

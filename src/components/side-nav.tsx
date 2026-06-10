@@ -2,7 +2,7 @@ import { navItems } from "@/lib/portfolio-data";
 
 export default function SideNav() {
   return (
-    <aside className="border-portfolio-line bg-portfolio-panel/80 px-6 py-6 lg:fixed lg:left-0 lg:top-0 lg:z-30 lg:flex lg:min-h-screen lg:w-60 lg:flex-col lg:justify-between lg:border-r lg:py-8">
+    <aside className="hidden border-portfolio-line bg-portfolio-panel/80 px-6 py-6 lg:fixed lg:left-0 lg:top-0 lg:z-30 lg:flex lg:min-h-screen lg:w-60 lg:flex-col lg:justify-between lg:border-r lg:py-8">
       <div>
         <a
           href="#profile"

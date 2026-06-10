@@ -35,6 +35,9 @@ export type SkillGroup = {
 export type ResumeEntry = {
   title: string;
   organization: string;
+  organizationType?: string;
+  period?: string;
+  location?: string;
   details: string[];
 };
 
@@ -165,6 +168,18 @@ export const skillGroups: SkillGroup[] = [
 ];
 
 export const experience: ResumeEntry[] = [
+  {
+    title: "Software Developer",
+    organization: "IBAFA Africa",
+    organizationType: "Full-time",
+    period: "May 2024 - Present",
+    location: "Remote",
+    details: [
+      "Build and maintain product-facing web platform features across public pages, member workspace, shop flows, and admin workflows.",
+      "Work with Supabase and Sanity-backed data/content flows for authentication, content, inventory, orders, and analytics surfaces.",
+      "Support M-Pesa Daraja integration work and API-backed commerce flows.",
+    ],
+  },
   {
     title: "Computer Science Club Member",
     organization: "Kenyatta University",
