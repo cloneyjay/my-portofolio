@@ -38,6 +38,7 @@ export type ResumeEntry = {
   organizationType?: string;
   period?: string;
   location?: string;
+  website?: string;
   details: string[];
 };
 
@@ -168,6 +169,19 @@ export const skillGroups: SkillGroup[] = [
 ];
 
 export const experience: ResumeEntry[] = [
+  {
+    title: "Full-Stack Developer Intern",
+    organization: "DigiNow Solutions",
+    organizationType: "Internship",
+    period: "July 2026 - Present",
+    location: "Remote",
+    website: "https://diginowsolutions.com",
+    details: [
+      "Contribute to full-stack system development across web and mobile products, supporting end-to-end feature delivery from UI to backend.",
+      "Collaborate with the engineering team on websites and mobile apps, translating product requirements into clean, shippable code.",
+      "Work across the stack on full-stack product development, partnering with cross-functional teams to deliver reliable releases.",
+    ],
+  },
   {
     title: "Software Developer",
     organization: "IBAFA Africa",

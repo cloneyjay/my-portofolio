@@ -12,12 +12,14 @@ export default function ProfileIntro() {
           Resume portfolio
         </p>
         <h1 className="mt-6 max-w-4xl text-5xl font-black leading-[0.9] tracking-[-0.06em] text-portfolio-text sm:text-6xl md:text-7xl xl:text-8xl">
-          Mobile apps, APIs, and product-ready flows.
+          Building full-stack products across two active roles.
         </h1>
         <p className="mt-8 max-w-3xl text-base leading-8 text-portfolio-muted sm:text-lg">
-          Computer Science undergraduate expected to graduate in June 2027,
-          focused on android development, full-stack development, and
-          API-backed mobile products.
+          Full-Stack Developer Intern at DigiNow Solutions shipping websites
+          and mobile apps, and Software Developer at IBAFA Africa building
+          product-facing web platform features. Computer Science undergraduate
+          expected to graduate in June 2027, focused on android development,
+          full-stack development, and API-backed mobile products.
         </p>
       </SectionReveal>
 

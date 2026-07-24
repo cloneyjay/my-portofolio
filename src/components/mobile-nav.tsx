@@ -173,7 +173,9 @@ export default function MobileNav() {
               Status
             </p>
             <p className="mt-3 text-sm leading-6 text-portfolio-accent">
-              Open to mobile internships and junior developer roles
+              Open to freelance
+              <br />
+              & side projects
             </p>
           </div>
         </aside>

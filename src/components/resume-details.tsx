@@ -19,7 +19,18 @@ export default function ResumeDetails() {
                   {entry.title}
                 </h2>
                 <p className="mt-1 text-sm text-portfolio-dim">
-                  {entry.organization}
+                  {entry.website ? (
+                    <a
+                      href={entry.website}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:text-portfolio-accent"
+                    >
+                      {entry.organization}
+                    </a>
+                  ) : (
+                    entry.organization
+                  )}
                   {entry.organizationType ? ` · ${entry.organizationType}` : ""}
                 </p>
                 {entry.period || entry.location ? (
